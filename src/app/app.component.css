@@ -1,0 +1,111 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #bae6fd;
+  background-image: url("/public/cloud.png");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #bae6fd;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+mat-card {
+  margin-bottom: 20px;
+  background-color: #edf0f1;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-content {
+  text-align: left;
+}
+
+.weather-data {
+  margin-top: 20px;
+}
+
+.weather-data h2 {
+  margin-top: 0;
+  color: #0288d1;
+}
+
+.weather-data p {
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.forecast-section {
+  margin-top: 20px;
+}
+
+.forecast-section h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #0288d1;
+}
+
+.forecast-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item p {
+  margin: 0;
+  font-weight: 300;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+mat-label {
+  color: #0288d1;
+}
+
+input {
+  color: #333;
+}
+
+button {
+  width: 100%;
+  background-color: #0288d1;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 10px;
+    margin: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
